@@ -16,9 +16,9 @@ class Farmer extends StatefulWidget{
   State<Farmer> createState() => FarmerState();
 }
 
-class FarmerState extends State<Farmer>{
+ class FarmerState extends State<Farmer>{
   @override  
-  Widget Build(BuildContext context){
+   Widget build(BuildContext context){
     return Scaffold(
       body: CustomScrollView(
         slivers: [
@@ -214,7 +214,8 @@ class FarmerState extends State<Farmer>{
       
       );
     
-  }}
+  }
+}
 
   class VegGrid extends StatelessWidget {
   List<String> images = [
