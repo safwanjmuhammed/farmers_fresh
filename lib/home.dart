@@ -50,7 +50,7 @@ class Farmer extends StatefulWidget{
                 child: const Center(
                   child: TextField(
                     decoration: InputDecoration(
-                      hintText: 'Search for  vegitables and fruits,Fruits..',
+                      hintText: 'Search for Vegitables and Fruits..',
                       prefixIcon: Icon(Icons.search),
                   )),
                  ),
@@ -95,7 +95,7 @@ class Farmer extends StatefulWidget{
                       ),
                     ),
                   ),
-                                    Container(
+                   Container(
                     decoration: BoxDecoration(
                         border: Border.all(
                           color: Colors.greenAccent,
@@ -106,18 +106,35 @@ class Farmer extends StatefulWidget{
                     width: 120,
                     child: const Center(
                       child: Text(
-                        "EXOTIC CUTS",
+                        "EXOTIC",
                         style: TextStyle(color: Colors.green),
                       ),
                     ),
                   ),
+                  Container(
+                    decoration: BoxDecoration(
+                        border: Border.all(
+                          color: Colors.greenAccent,
+                        ),
+                        borderRadius:
+                            const BorderRadius.all(Radius.circular(20))),
+                    height: 25,
+                    width: 120,
+                    child: const Center(
+                      child: Text(
+                        "FRESH CUTS",
+                        style: TextStyle(color: Colors.green),
+                      ),
+                    ),
+                  ),
+
 
                   ],
                     ),
                     const SizedBox(
                       height: 10,
                     ),
-                     Image.asset("assets/images/shop.jpg"),
+                     Image.asset("assets/images/veg.jpg"),
                      const SizedBox(
                       height: 10,
                      ),
@@ -198,13 +215,13 @@ class Farmer extends StatefulWidget{
                  label: "Home"),
                  BottomNavigationBarItem(
               icon: Icon(
-                Icons.home,
+                Icons.shopping_cart,
                 color: Colors.green,
                  ),
                  label: "Cart"),
                  BottomNavigationBarItem(
               icon: Icon(
-                Icons.home,
+                Icons.account_box,
                 color: Colors.green,
                  ),
                  label: "Accounts")
@@ -219,12 +236,12 @@ class Farmer extends StatefulWidget{
 
   class VegGrid extends StatelessWidget {
   List<String> images = [
-    "https://images.news18.com/ibnlive/uploads/2021/08/tomato1-16299798893x2.jpg",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROvtRXHaAOMuDO_2oW95H17oDFf6zyfJ1fpA&usqp=CAU",
-    "https://images.news18.com/ibnlive/uploads/2021/08/tomato1-16299798893x2.jpg",
-    "https://nationaltoday.com/wp-content/uploads/2021/06/National-Herbs-and-Spices-Day-1-640x514.jpg",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGnnQcNCeHzbkq9lu8hm_yj4EC9tvk4_5_TA&usqp=CAU",
-    "https://images.news18.com/ibnlive/uploads/2021/08/tomato1-16299798893x2.jpg",
+    "https://cdn-icons-png.flaticon.com/512/5175/5175244.png",
+    "https://cdn-icons-png.flaticon.com/512/4392/4392462.png",
+    "https://cdn-icons-png.flaticon.com/512/6641/6641874.png",
+    "https://cdn-icons-png.flaticon.com/512/4057/4057120.png",
+    "https://cdn-icons-png.flaticon.com/512/4796/4796229.png",
+    "https://cdn-icons-png.flaticon.com/512/1686/1686637.png",
   ];
 
   List<String> names = [
