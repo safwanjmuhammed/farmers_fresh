@@ -24,7 +24,7 @@ class Farmer extends StatefulWidget{
         slivers: [
           SliverAppBar(
             title: const Text(
-              'FARMER FRESH ZONE',
+              'FARMER FRESH zoner',
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
             floating: false,
@@ -150,7 +150,6 @@ class Farmer extends StatefulWidget{
                           children: [
                             Column(
                               children: const[
-
                                 Icon(Icons.timer),
                                 SizedBox(
                                   height: 10,
@@ -173,7 +172,7 @@ class Farmer extends StatefulWidget{
                           SizedBox(
                             height: 10,
                           ),
-                          Text("Local Surrouning")
+                          Text("Local Sourcing")
                         ],
                       ),
 
@@ -293,4 +292,4 @@ class Farmer extends StatefulWidget{
         });
   }
 }
-  
+//code
